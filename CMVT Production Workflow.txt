@@ -1,0 +1,26 @@
+1. Files received by FTP. Email notice sent to Production Team.
+
+2. Programmer runs script to process files. The script:
+    -Checks that counts and plate numbers match the header and footer records.
+    -Sorts and combines records by recipient. 
+    -Creates print files for mailing (if any).
+    -Creates print files to return to DOF (if any).
+    -Creates acknowledgment files. Places them on FTP site.
+    -Sends email notice to Production of availability of print files.
+    -Sends email notice to Vanguard and DOF of availability of acknowledgment files.
+    -Updates File Processing log. 
+
+3. Print team prints stickers. Insertion team manually checks and inserts stickers broken down by recipient.  
+
+4. Stickers for DOF are placed in an envelope and sent by courier service.
+
+5. Mailing Dept prepares postage receipts and preps mailing stickers for the Post Office.
+
+6. Stickers are sent to the Post Office.
+
+7. Mailing Dept notifies Production Team that files have been mailed.
+
+8. Programmer runs script to process mailed records. The script:
+    -Creates the Mailed file. Places it on FTP site.
+    -Sends email notice to Vanguard and DOF of availability of mailed file.
+    -Updates File Processing log.   
